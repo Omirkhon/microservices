@@ -1,0 +1,18 @@
+server:
+  port: 8080
+
+users:
+  server:
+    url: http://localhost:8081
+
+posts:
+  server:
+    url: http://localhost:8082
+
+spring:
+  datasource:
+    url: jdbc:postgresql://${DB_HOST}:5432/${DB_NAME}
+    username: ${DB_USER}
+    password: ${DB_PASSWORD}
+  jpa:
+    generate-ddl: true
