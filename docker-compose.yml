@@ -40,7 +40,3 @@ services:
       - "8080:8080"
     environment:
       - SPRING_PROFILES_ACTIVE=docker
-      - DB_NAME=spring-microservices-api-gateway
-      - DB_USER=amirkhan
-      - DB_PASSWORD=123
-      - DB_HOST=postgres-service-api-gateway
